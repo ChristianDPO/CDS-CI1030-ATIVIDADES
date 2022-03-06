@@ -50,9 +50,9 @@ Os objetivos da tarefa são:
 1. Obter o dataset selecionado conforme aprovado pelo professor;
 
 2. Descrevê-lo em seu repositório
-(quantidade de amostras;
-classes das amostras-isto é, tipos de rótulos que categorizam as amostras e o que eles significam;
-dicionário de atributos-isto é, quantos, quais são e descrição dos atributos;)
+- quantidade de amostras;
+- classes das amostras - isto é, tipos de rótulos que categorizam as amostras e o que eles significam;
+- dicionário de atributos - isto é, quantos, quais são e descrição dos atributos;
 
 3. Apresentar o dataset: estude como fazer um scatterplot e aplique-o para seus dados. O scatterplot é um gráfico que rebate cada atributo pelo outro, gerando uma matriz N por N, onde N é o número de atributos.
 

@@ -1,6 +1,10 @@
-#custom
+## Custom
+
+#tarefa_1
 trace.pcap
 
+#tarefa_2
+csv.txt
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
