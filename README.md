@@ -2,7 +2,7 @@
 
 - Este repositório tem como função abrigar as tarefas proposta pela matéria de Ciência de Dados para Segurança (CI1030) da Universiade Federal do Paraná (Período 2022/1)
 - As tarefas estão divididas em diferentes diretórios
-
+- A tarefa 2 foi a criação do repositório em si 
 
 
 # Scripts
