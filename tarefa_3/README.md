@@ -27,3 +27,26 @@
     - `cat dataset_1/csv.txt | cut -d "," -f1 | grep -v \# | wc -l`
 - Comando para verificar valores distintos de uma coluna 'X' (considere que as urls tem carcteres especiais), valores pares são os das colunas (colunas impares são virgulas e espaços em branco)
     - `cat dataset_1/csv.txt | cut -d "\"" -f'X' | grep -v \# | sort | uniq -c`
+
+
+
+# Dataset 02 - URL Reputation Dataset
+
+- Links: 
+    - https://archive.ics.uci.edu/ml/datasets/URL+Reputation
+    - http://www.sysnet.ucsd.edu/projects/url/
+    - Paper relacionado: https://cseweb.ucsd.edu//~jtma/papers/url-icml2009.pdf
+
+## Descrição
+- Este dataset contem dados anonimizados de classificação de urls como maliciosas ou não, basedos em carcaterísticas léxicas e host-based 
+- Foram coletados dados de urls durante 120 dias, assim dividindo os dados/features extraidas em 120 arquivos
+
+
+## Informações do dataset
+- __Amostras__: 2396130 (numero de classificações de URL em todos os arquivos)
+- Os atributos são anonimizados (ou seja, não é dita a url ou o que o valor da feature corresponde especificamente), mas correspondem a carcaterísticas léxicas e host-based da url, que são descritas em detalhes na seção 2.1 do [paper](https://cseweb.ucsd.edu//~jtma/papers/url-icml2009.pdf)
+- As features fora extraidas utilizando técnicas de extração para textos (como a url em si, o dominio, o hostname, entre outros), aumentando o número de features existentes a cada dia com base nas urls adicionadas a classificação. As features (numero da coluna) que tem valores numericos reais são descritas num arquivo `FeatureTypes`
+- Ao fazer o download do dataset em formato svm (disponível [neste link](http://www.sysnet.ucsd.edu/projects/url/)) o arquivo descompactado de `url_svmligh.tar.gz` contém os arquivos:
+    - ___FeatureTypes__: Uma lista de indices de coluna que representam features de valor real (real-valued)
+    - __DayX.svm__ (onde X é um inteiro de 0 a 120) --- os dados para o dia X em formato SVM-light . A label de +1 indica que é uma URL maliciosa e -1 corresponde a uma URL benigna.
+
