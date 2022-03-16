@@ -32,7 +32,7 @@
     - __Total__: 165366
 - O número de dados das urls de cada classe nos arquivos csv não é o mesmo que o total de urls de cada classe, ou seja, foram extraidas informações de menos urls que o total presente na base. Abaixo temos o número de exemplos de cada classe extraidos do arquivo `All.csv`:
     - __Benignas__: 7781
-    - __Daefacement__: 7930
+    - __Defacement__: 7930
     - __Phishing__: 7586
     - __Malware__: 6712
     - __Spam__: 6698
