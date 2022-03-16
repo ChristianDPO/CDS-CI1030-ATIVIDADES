@@ -18,7 +18,24 @@
 
     - Defacement URLs: Da lista Alexa de sites confiáveis, foram extraidas de suas páginas urls ocultas ou forjadas que contém paginas webs maliciosas
 
-- Contém arquivos CSV com informações léxicas (como numero de tokens/palavras do domínio da url, tamanho da url, etc) das urls
+- Contém arquivos CSV com informações léxicas das urls (como numero de tokens/palavras do domínio da url, tamanho da url, etc) 
 
 
-## Informa
+## Informações
+- O dataset contém 5 arquivos para cada categoria de url, que são arquivos csv de uma unica coluna.
+- Cada arquivo tem o seguinte número de urls (contado o número de linhas)
+    - __Benign_list_big_final.csv__: 35378
+    - __DefacementSitesURLFiltered.csv__: 96457
+    - __phishing_dataset.csv__: 9965
+    - __Malware_dataset.csv__: 11566
+    - __spam_dataset.csv__: 12000
+    - __Total__: 165366
+- O número de dados das urls de cada classe nos arquivos csv não é o mesmo que o total de urls de cada classe, ou seja, foram extraidas informações de menos urls que o total presente na base. Abaixo temos o número de exemplos de cada classe extraidos do arquivo `All.csv`:
+    - __Benignas__: 7781
+    - __Daefacement__: 7930
+    - __Phishing__: 7586
+    - __Malware__: 6712
+    - __Spam__: 6698
+- Os arquivos `Spam.csv`, `Malware.csv`, `Phishing.csv` e `Daefacement.csv` contém uma separação
+dos exemplos do arquivo `All.csv` de somente os exemplos benignos juntamente com os exemplos da classe do nome do arquivo. Essa separação foi feita, julgando pelo paper, para ver o resultado de uma classificação de duas classes (acurácia da verificação entre benigno e spam, por exemplo)
+- O arquivo `All.csv` aparentemente foi usado para a classificação multi-classe das urls
