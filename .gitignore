@@ -4,9 +4,7 @@
 trace.pcap
 
 #tarefa_2
-csv.txt
-url_svmlight
-url_svmlight.tar.gz
+tarefa_3/dataset/FinalDataset
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
