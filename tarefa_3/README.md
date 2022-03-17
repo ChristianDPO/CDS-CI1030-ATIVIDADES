@@ -2,7 +2,7 @@
 
 ## Fontes
 - Info do dataset: https://www.unb.ca/cic/datasets/url-2016.html#:~:text=Benign%20URLs%3A%20Over%2035%2C300%20benign,duplicate%20and%20domain%20only%20URLs.
-- Paper que utiliza o dataset: ["Detecting Malicious URLs Using Lexical Analysis"](https://www.researchgate.net/publication/308365207_Detecting_Malicious_URLs_Using_Lexical_Analysis)
+- Paper que utiliza o dataset: [Detecting Malicious URLs Using Lexical Analysis](https://www.researchgate.net/publication/308365207_Detecting_Malicious_URLs_Using_Lexical_Analysis)
 
 
 ## Descrição
@@ -39,3 +39,4 @@
 - Os arquivos `Spam.csv`, `Malware.csv`, `Phishing.csv` e `Daefacement.csv` contém uma separação
 dos exemplos do arquivo `All.csv` de somente os exemplos benignos juntamente com os exemplos da classe do nome do arquivo. Essa separação foi feita, julgando pelo paper, para ver o resultado de uma classificação de duas classes (acurácia da verificação entre benigno e spam, por exemplo)
 - O arquivo `All.csv` aparentemente foi usado para a classificação multi-classe das urls
+- Cada campo dos arquivos CSV é descrito, em detalhes, na seção 3.1 do [paper](https://www.researchgate.net/publication/308365207_Detecting_Malicious_URLs_Using_Lexical_Analysis)
