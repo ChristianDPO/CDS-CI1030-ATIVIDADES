@@ -30,7 +30,7 @@
     - __Malware_dataset.csv__: 11566
     - __spam_dataset.csv__: 12000
     - __Total__: 165366
-- O número de dados das urls de cada classe nos arquivos csv não é o mesmo que o total de urls de cada classe, ou seja, foram extraidas informações de menos urls que o total presente na base. Abaixo temos o número de exemplos de cada classe extraidos do arquivo `All.csv`:
+- O número de dados das urls de cada classe nos arquivos csv não é o mesmo que o total de urls de cada classe, pois foram selecioanadaas uma quantidade menor aleatória de urls para a extração de atributos. Abaixo temos o número de exemplos de cada classe extraidos do arquivo `All.csv`:
     - __Benignas__: 7781
     - __Defacement__: 7930
     - __Phishing__: 7586
