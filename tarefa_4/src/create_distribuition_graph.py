@@ -28,7 +28,7 @@ def create_distribution_graph(csv_file, class_column_name):
     plt.xlabel('Number of samples') 
     plt.barh(class_names, class_counts, color='green')
 
-    #Shows the exat class sample count on top of the bar 
+    #Shows the exact class sample count on top of the bar 
     for index, value in enumerate(class_counts):
         plt.text(value, index,str(value))
 

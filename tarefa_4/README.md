@@ -9,6 +9,7 @@ do dataset, sendo escolhidos através do algoritimo de Ganho de Informação nos
 - Não foi notável nenhum agrupmento dos atributos (pelo menos no plano de duas dimensões), mesmo os escolhidos pelo paper (figura da scattermatrix com esses atributos em `results/`)
 - O arquivo `results/feature_array_example.txt` exemplifica como será representado o vetor de características usando os atributos real-valued
 - O gráfico de barras que representa a distribuição das amostras do dataset se econtra em `results/`
+- Mais informações sobre os atributos escolhidos em `tarefa_4/results/relatorio-ciencia-de-dados-cdpo18.pdf`
 
 ## Scripts
 
