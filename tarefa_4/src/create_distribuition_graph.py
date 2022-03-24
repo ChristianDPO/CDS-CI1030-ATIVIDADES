@@ -12,7 +12,7 @@ def create_distribution_graph(csv_file, class_column_name):
     Plots a barh graph with the class distribution of a csv file dataset
 
     :param str csv_file: path to the csv file
-    :param class_column_name: the name of the csv column with the class labels
+    :param str class_column_name: the name of the csv column with the class labels
     """
 
 
@@ -24,8 +24,8 @@ def create_distribution_graph(csv_file, class_column_name):
     class_counts = csv_data[class_column_name].value_counts()
 
     #Plot bar graph to show class sample distribution
-    plt.xlabel('Classes')
-    plt.ylabel('Number of samples') 
+    plt.ylabel('Classes')
+    plt.xlabel('Number of samples') 
     plt.barh(class_names, class_counts, color='green')
 
     #Shows the exat class sample count on top of the bar 
@@ -41,7 +41,6 @@ def do_main(csv_file, class_column_name):
         csv_file=csv_file,
         class_column_name=class_column_name,
     )
-
 
 
 if __name__ == '__main__':
