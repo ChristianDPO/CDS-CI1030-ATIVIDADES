@@ -1,7 +1,7 @@
 # Dataset - URL dataset (ISCX-URL2016)
 
 ## Fontes
-- Info do dataset: https://www.unb.ca/cic/datasets/url-2016.html#:~:text=Benign%20URLs%3A%20Over%2035%2C300%20benign,duplicate%20and%20domain%20only%20URLs.
+- Info do dataset: https://www.unb.ca/cic/datasets/url-2016.html
 - Paper que utiliza o dataset: [Detecting Malicious URLs Using Lexical Analysis](https://www.researchgate.net/publication/308365207_Detecting_Malicious_URLs_Using_Lexical_Analysis)
 
 
