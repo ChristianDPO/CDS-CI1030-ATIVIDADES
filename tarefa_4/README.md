@@ -1,10 +1,17 @@
 # Vetor de características e Distribuição do conjunto de dados
 
 - Mais informações sobre o dataset encontradas no README.md do diretório `tarefa_3`
-- Os resultados dos esperimentos dessa tarefa foram adicionados ao diretório `results/`
 
+## Atributos
+- Os atributos escolhidos para o vetor de características escolhidos são baseados no [paper](https://www.researchgate.net/publication/308365207_Detecting_Malicious_URLs_Using_Lexical_Analysis)
+do dataset, sendo escolhidos através do algoritimo de Ganho de Informação nos atributos
+- Foram feitas tentativas de scatterplot de NxN gráficos (scatter_matrix) para verificar a presença de agrupamentos/clustering das classes. 
+- Não foi notável nenhum agrupmento dos atributos (pelo menos no plano de duas dimensões), mesmo os escolhidos pelo paper (figura da scattermatrix com esses atributos em `results/`)
+- O arquivo `results/feature_array_example.txt` exemplifica como será representado o vetor de características usando os atributos real-valued
+- O gráfico de barras que representa a distribuição das amostras do dataset se econtra em `results/`
 
 ## Scripts
+
 `$create_distribuition_graph.py `
 - __Descrição__: Cria um grafico de barras que mostra a distribuição de amostras por classe (quantidade de exemplos para cada classe)
 - __Execução__: `python3 create_distribuition_graph.py <csv_file> <class_column_name>`
