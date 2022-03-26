@@ -58,7 +58,7 @@ Os objetivos da tarefa são:
 
 4. Investigar o scatterplot para discutir dataset: suas amostras são distinguíveis? Existem características/atributos que parecem não distinguir entre as amostras? Quais? Há características/atributos que parecem ser adequados para distinguir entre as classes/rótulos das amostras? Quais?
 
-# Tarefa 04
+# Tarefa 3.5
 
 Vetor de características e Distribuição do conjunto de dados
 
@@ -81,3 +81,22 @@ O que fazer?
     - Coloque também a figura gerada na documentação do seu repositório. 
 
 __ENTREGAR__: 1 Documento em PDF que atenda aos itens 1 a 4, mostrando as colunas (cabeçalho) do vetor de características, a figura de distribuição das classes e o código como apêndice (formato relatório técnico). 
+
+
+# Tarefa 04
+
+- Cada aluno deverá apresentar o estado atual do seu projeto, mostrando e discutindo:
+
+- O dataset como um todo
+    - atributos, características, classes, amostras
+    - distribuição de classes
+- Processamento dos dados
+    - Como foi feita a extração de características
+    - Foi feito seleção?
+- Exploração e visualização de dados
+    - Mostrar o diagrama de dispersão (scatterplot)
+    - Mostrar visualmente o agrupamento de seu dataset com algum algoritmo de clustering
+        - Sugestão: K-Means (mas pode usar outro, como DBScan)
+        - Usar como número de cluster o número de classes do seu problema (se for binário, K=2)
+
+__ENTREGAR__: Apresentar slides, 10 minutos cada aluno/apresentação (vale nota parcial).
