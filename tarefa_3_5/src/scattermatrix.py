@@ -45,6 +45,10 @@ def scattermatrix(csv_file, class_column_name, n_samples, selected_att=None):
     else:
         ds_sel = dataset
 
+    #Remove valuens with 'NaN'
+    ds_sel.dropna(inplace=True) 
+
+    #Print dataset head
     print(ds_sel.head())
 
     # Chooses N examples for each class for plotting
