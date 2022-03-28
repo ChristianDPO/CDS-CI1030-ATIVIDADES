@@ -4,11 +4,13 @@
 
 ## Atributos
 - Os atributos escolhidos para o vetor de características escolhidos são baseados no [paper](https://www.researchgate.net/publication/308365207_Detecting_Malicious_URLs_Using_Lexical_Analysis)
-do dataset, sendo escolhidos através do algoritimo de Ganho de Informação nos atributos
+do dataset, sendo escolhidos através do algoritimo de Ganho de Informação (Infogain) e Ranker do Weka nos atributos
 - Foram feitas tentativas de scatterplot de NxN gráficos (scatter_matrix) para verificar a presença de agrupamentos/clustering das classes. 
 - Não foi notável nenhum agrupmento dos atributos (pelo menos no plano de duas dimensões), mesmo os escolhidos pelo paper (figura da scattermatrix com esses atributos em `results/`)
 - O arquivo `results/feature_array_example.txt` exemplifica como será representado o vetor de características usando os atributos real-valued
-- O gráfico de barras que representa a distribuição das amostras do dataset se econtra em `results/`
+O gráfico `results/Dataset_Distribution_Graph.png` mostra a a distribuição dos dados no dataset
+- O gráfico `results/Dataset_Distribution_Graph_Infogain_Dropna.png` mostra a a distribuição dos dados usando os atributos selecionados sem valores 'NaN'
+nas colunas 
 - Mais informações sobre os atributos escolhidos em `tarefa_4/results/relatorio-ciencia-de-dados-cdpo18.pdf`
 
 ## Scripts
