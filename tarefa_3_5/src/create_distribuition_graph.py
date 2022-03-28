@@ -7,7 +7,7 @@ import pandas
 import matplotlib.pyplot as plt
 
 
-def create_distribution_graph(csv_file, class_column_name):
+def create_distribution_graph(csv_file, class_column_name, dropna = False, color='green'):
     """
     Plots a barh graph with the class distribution of a csv file dataset
 
@@ -18,6 +18,9 @@ def create_distribution_graph(csv_file, class_column_name):
 
     # Reads CSV file with data
     csv_data = pandas.read_csv(csv_file)
+    
+    if dropna:
+        csv_data.dropna(inplace = True)
 
     #Create class name/label array and class count vectors
     # more info in https://pandas.pydata.org/docs/reference/api/pandas.Series.html
@@ -26,7 +29,7 @@ def create_distribution_graph(csv_file, class_column_name):
     #Plot bar graph to show class sample distribution
     plt.ylabel('Classes')
     plt.xlabel('Number of samples') 
-    plt.barh(class_counts.index, class_counts, color='green')
+    plt.barh(class_counts.index, class_counts, color=color)
 
     #Shows the exact class sample count on top of the bar 
     for index, value in enumerate(class_counts):
