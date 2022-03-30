@@ -1,6 +1,7 @@
 ## Tarefa 04 - Apresentação
 
 - O resultado do gráfico do kmeans se encontra em `tarefa_4/results/kmeans_graph.png`
+- A apresentação de slides com o resultados do dataset se encontra em `tarefa_4/results/CI1030-cdpo18.pdf`
 
 
 ## Scripts
