@@ -1,6 +1,4 @@
 #!/usr/bin/env python
-from pandas.plotting import scatter_matrix
-
 import sys
 import pandas
 import numpy as np
