@@ -1,10 +1,8 @@
-## Custom
+###### Custom ######
+dataset/FinalDataset
 
 #tarefa_1
 trace.pcap
-
-#tarefa_2
-tarefa_3/dataset/FinalDataset
 
 # Byte-compiled / optimized / DLL files
 __pycache__/

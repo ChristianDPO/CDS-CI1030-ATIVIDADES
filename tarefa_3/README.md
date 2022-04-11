@@ -1,5 +1,7 @@
 # Dataset - URL dataset (ISCX-URL2016)
 
+- O dataset se encontra no diretório raiz do repositório: `CI1030-Ciencia-de-Dados/dataset/ISCXURL2016.zip`
+
 ## Fontes
 - Info do dataset: https://www.unb.ca/cic/datasets/url-2016.html
 - Paper que utiliza o dataset: [Detecting Malicious URLs Using Lexical Analysis](https://www.researchgate.net/publication/308365207_Detecting_Malicious_URLs_Using_Lexical_Analysis)
