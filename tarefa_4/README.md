@@ -12,4 +12,4 @@
     - `<csv_file>`: Path para o arquivo CSV do dataset para plotar o gráfico
     - `<class_column_name>`: nome da coluna do CSV que contém as labels das classes de cada exemplo
 - __Exemplo__:
-    - `python3 kmeans_cluster_graph.py ../../tarefa_3/dataset/FinalDataset/All_Infogain.csv class`
+    - `python3 kmeans_cluster_graph.py ../../dataset/FinalDataset/All_Infogain.csv class`
