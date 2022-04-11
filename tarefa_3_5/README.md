@@ -21,14 +21,14 @@ nas colunas
     - `<csv_file>`: Path para o arquivo CSV do dataset para plotar o gráfico
     - `<class_column_name>`: nome da coluna do CSV que contém as labels das classes de cada exemplo
 - __Exemplo__:
-    - `python3 create_distribuition_graph.py ../../tarefa_3/dataset/FinalDataset/All.csv URL_Type_obf_Type`
+    - `python3 create_distribuition_graph.py ../../dataset/FinalDataset/All.csv URL_Type_obf_Type`
 
 `$scattermatrix.py `
 - __Descrição__: Gera uma scatter_matrix para o dataset escolhido
 - __Execução__: `python3 scattermatrix.py <csv_file>`
     - `<csv_file>`: Path para o arquivo CSV do dataset para plotar a scatter_matrix
 - __Exemplo__:
-    - `python3 scattermatrix.py ../../tarefa_3/dataset/FinalDataset/All.csv`
+    - `python3 scattermatrix.py ../../dataset/FinalDataset/All.csv`
 
 
 ## Fontes/Guia de conteúdos

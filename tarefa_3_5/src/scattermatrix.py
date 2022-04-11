@@ -37,7 +37,7 @@ def scattermatrix(csv_file, class_column_name, n_samples, selected_att=None):
     """
 
     # Reads CSV file with data
-    dataset = pandas.read_csv(csv_file, index_col=0)
+    dataset = pandas.read_csv(csv_file)
 
     # Splits CSV file by chosen atributes
     if selected_att:
