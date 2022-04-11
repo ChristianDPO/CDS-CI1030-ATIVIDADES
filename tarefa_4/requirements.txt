@@ -2,5 +2,5 @@ numpy
 pandas
 matplotlib
 sklearn
-tensorflow
 ipykernel
+seaborn
