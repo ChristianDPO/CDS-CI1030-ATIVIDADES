@@ -13,3 +13,8 @@
     - `<class_column_name>`: nome da coluna do CSV que contém as labels das classes de cada exemplo
 - __Exemplo__:
     - `python3 kmeans_cluster_graph.py ../../dataset/FinalDataset/All_Infogain.csv class`
+
+## Notebooks
+
+- `tarefa_4/src/Clustering.ipynb`: Faz o clustering com Kmeans para verificar a separação das classes
+- `tarefa_4/src/Classification.ipynb`: faz a classificação usando o vetor de características escolhido

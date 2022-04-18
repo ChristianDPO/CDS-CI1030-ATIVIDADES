@@ -1,6 +1,7 @@
 # Dataset - URL dataset (ISCX-URL2016)
 
 - O dataset se encontra no diretório raiz do repositório: `CI1030-Ciencia-de-Dados/dataset/ISCXURL2016.zip`
+- Os arquivos em `CI1030-Ciencia-de-Dados/dataset/splitted` são partições do dataset em 80% e 20%, leia mais na `tarefa_final/`
 
 ## Fontes
 - Info do dataset: https://www.unb.ca/cic/datasets/url-2016.html

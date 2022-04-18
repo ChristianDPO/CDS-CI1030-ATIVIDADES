@@ -100,3 +100,37 @@ __ENTREGAR__: 1 Documento em PDF que atenda aos itens 1 a 4, mostrando as coluna
         - Usar como número de cluster o número de classes do seu problema (se for binário, K=2)
 
 __ENTREGAR__: Apresentar slides, 10 minutos cada aluno/apresentação (vale nota parcial).
+
+
+# Tarefa Final
+
+Tarefa Final
+INSTRUÇÕES:
+
+Do dataset total escolhido, REMOVA 20% das amostras (com balanceamento entre as classes) e as GUARDE em um outro diretório para uso futuro.
+
+As amostras remanescentes (80%) serão referidas daqui por diante como "DATASET".
+
+1. Utilizar o DATASET para treinar modelos baseados em KNN (1, 3 e 5 vizinhos), RandomForest (50 e 100 árvores) e MLP ou SVM (1000 e 5000 épocas, ou erro menor que 0.01)
+
+2. Registre o tempo de TREINAMENTO dos modelos (lembre-se de definir um estado que permita a replicação do experimento e de salvar seu modelo para uso posterior em uma solução a ser demonstrada)
+
+3. Na definição do experimento, lembre-se de colocar a especificação da máquina utilizada (processador, memória, sistema operacional) e dos parâmetros usados em cada algoritmo
+
+4. Treine usando separação do DATASET em 50/50 e 80/20, depois use k-folding com k = 5. Compare os resultados dos testes iniciais com os resultados obtidos pelo artigo original do qual seu dataset é proveniente. Gere as
+
+5. Curvas ROC ou P/R e matrizes de confusão para o relatório
+
+6. Defina uma classe positiva, mesmo em um problema multiclasse
+
+7. Escolha uma meta para o ajuste de limiar, justifique-a conforme a solução que você quer criar e rode o GridSearch de forma a gerar os modelos ótimos para sua meta
+
+8. Busque por amostras do mundo real para demonstração posterior;
+
+9. Ajeite os 20% de amostras removidas de forma que elas não tenham mais rótulo, mas que você possa mapea-las individualmente para o rótulo correto após usá-las como entrada para sua solução
+
+10. Faça uma apresentação da sua solução contendo experimentos, gráficos, tabelas comparativas e uma demonstração prática utilizando os modelos gerados com os 20% de amostras removidas e com as amostras que você encontrou do mundo real.
+
+11. Atualize seu GitHub com os códigos, vetores e documentação nova
+
+CADA ALUNO TERÁ UM SLOT DE 30 MINUTOS NO DIA DA APRESENTAÇÃO (a ser definido).
