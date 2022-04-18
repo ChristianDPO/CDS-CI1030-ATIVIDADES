@@ -1,9 +1,7 @@
 # CI1030-Ciencia-de-Dados
 
-- Este repositório tem como função abrigar as tarefas proposta pela matéria de Ciência de Dados para Segurança (CI1030) da Universiade Federal do Paraná (Período 2022/1)
-- As tarefas estão divididas em diferentes diretórios, cada diretório contem um `README.md` descrevendo a tarefa
-- Este `README.md` contém apenas os enunciados das tarefas
-
+- Este repositório tem como função abrigar as tarefas proposta pela matéria de Ciência de Dados para Segurança (CI1030) da Universiade Federal do Paraná (2021/2o Semestre (ERE5) - feito em 2022)
+- Este `README.md` contém apenas os enunciados das tarefas. As tarefas estão divididas em diferentes diretórios, cada diretório contem um `README.md` descrevendo a tarefa
 
 # Tarefa 01
 
@@ -45,7 +43,7 @@ O arquivo "trace.pcap" possui:
 
 Exploração do seu dataset
 
-Os objetivos da tarefa são:
+- Os objetivos da tarefa são:
 
 1. Obter o dataset selecionado conforme aprovado pelo professor;
 
@@ -57,8 +55,6 @@ Os objetivos da tarefa são:
 3. Apresentar o dataset: estude como fazer um scatterplot e aplique-o para seus dados. O scatterplot é um gráfico que rebate cada atributo pelo outro, gerando uma matriz N por N, onde N é o número de atributos.
 
 4. Investigar o scatterplot para discutir dataset: suas amostras são distinguíveis? Existem características/atributos que parecem não distinguir entre as amostras? Quais? Há características/atributos que parecem ser adequados para distinguir entre as classes/rótulos das amostras? Quais?
-
-# Tarefa 3.5
 
 Vetor de características e Distribuição do conjunto de dados
 
@@ -74,18 +70,17 @@ Vetor de características e Distribuição do conjunto de dados
 
 O que fazer?
 
-    - Disponibilize o código utilizado para resolver os itens acima no seu repositório. 
+- Disponibilize o código utilizado para resolver os itens acima no seu repositório. 
 
-    - Responda as perguntas na documentação do repositório, em seção específica para Exploração dos Dados.
+- Responda as perguntas na documentação do repositório, em seção específica para Exploração dos Dados.
 
-    - Coloque também a figura gerada na documentação do seu repositório. 
+- Coloque também a figura gerada na documentação do seu repositório. 
 
 __ENTREGAR__: 1 Documento em PDF que atenda aos itens 1 a 4, mostrando as colunas (cabeçalho) do vetor de características, a figura de distribuição das classes e o código como apêndice (formato relatório técnico). 
 
-
 # Tarefa 04
 
-- Cada aluno deverá apresentar o estado atual do seu projeto, mostrando e discutindo:
+Cada aluno deverá apresentar o estado atual do seu projeto, mostrando e discutindo:
 
 - O dataset como um todo
     - atributos, características, classes, amostras
@@ -100,6 +95,11 @@ __ENTREGAR__: 1 Documento em PDF que atenda aos itens 1 a 4, mostrando as coluna
         - Usar como número de cluster o número de classes do seu problema (se for binário, K=2)
 
 __ENTREGAR__: Apresentar slides, 10 minutos cada aluno/apresentação (vale nota parcial).
+
+Outras tarefas para a verificação:
+    
+- Verificar o gráfico do Kmeans e o gráfico das amostras. Qual a proporção de amostras em cada cluster? Os clusters separam bem as amostras?
+- Fazer a classificação do dataset com a proporção 80/20 de treino/teste com alguns classificadores de sua escolha. Houveram bons resultados? Qual dos escolhidos tiveram bons resultados e por quê?
 
 
 # Tarefa Final
