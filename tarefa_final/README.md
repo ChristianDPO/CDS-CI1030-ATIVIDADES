@@ -9,6 +9,7 @@
 
 ## Notebooks
 
+- `tarefa_final/src/DatasetDescribe.ipynb`: Faz a descrição dos valores do dataset e do dataset após uma seleção de atributos.
 - `tarefa_final/src/DatasetSpliting.ipynb`: Faz splitting do dataset em 80% e 20% de maneira balanceada nas classes.
 Também gera o dataset com duas classes: 'positiva' (benign) e 'negativa' (malicious)
 - `tarefa_final/src/DatasetTraining.ipynb`: Treina modelos usando 80% do dataset, plota gráficos com matrizes de confusão, ROC curves e mostra métricas, além de salvar os modelos treinados em um dado diretório.
