@@ -3,8 +3,12 @@
 ## Informações
 
 - `data/`: Contém listas de urls maliciosas usadas para testar os modelos:
-    - `list_1.txt`: Algumas urls extraidas do CSV do repositório da [URLhaus](https://urlhaus.abuse.ch/api/#csv). Foram priorizadas urls com parametros para realizar melhorar a extração.
-    - `list_2.txt`: Lista de urls blacklistadas de um dado banco, enviada por email em 28-04-2022 18:00
+    - `list_1.csv`: Algumas urls maliciosas extraidas do CSV do repositório da [URLhaus](https://urlhaus.abuse.ch/api/#csv). Foram priorizadas urls com parametros para realizar melhorar a extração.
+        - Samples: 64
+    - `list_2.csv`: Lista de urls blacklistadas de um dado banco, enviada por email em 28-04-2022 18:00
+        - Samples: 56
+    - `list_3.csv`: Lista de urls benignas. Samples retirados do csv [deste dataset](https://data.mendeley.com/datasets/gdx3pkwp47/2)
+        - Samples: 50
 
 
 ## Notebooks
