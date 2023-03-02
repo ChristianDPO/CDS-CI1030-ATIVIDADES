@@ -1,3 +1,43 @@
+# Tarefa 03
+
+Exploração do seu dataset
+
+- Os objetivos da tarefa são:
+
+1. Obter o dataset selecionado conforme aprovado pelo professor;
+
+2. Descrevê-lo em seu repositório
+- quantidade de amostras;
+- classes das amostras - isto é, tipos de rótulos que categorizam as amostras e o que eles significam;
+- dicionário de atributos - isto é, quantos, quais são e descrição dos atributos;
+
+3. Apresentar o dataset: estude como fazer um scatterplot e aplique-o para seus dados. O scatterplot é um gráfico que rebate cada atributo pelo outro, gerando uma matriz N por N, onde N é o número de atributos.
+
+4. Investigar o scatterplot para discutir dataset: suas amostras são distinguíveis? Existem características/atributos que parecem não distinguir entre as amostras? Quais? Há características/atributos que parecem ser adequados para distinguir entre as classes/rótulos das amostras? Quais?
+
+Vetor de características e Distribuição do conjunto de dados
+
+- Após a exploração e seleção inicial de quais atributos serão usados como características, faça:
+
+1. Crie um vetor de características com seus dados;
+
+2. Utilize os rótulos das amostras como classes (é um problema binário ou multiclasse?);
+
+3. Inclua os rótulos como última posição do vetor de características, um por amostra, indexando como "classe";
+
+4. Apresente graficamente a distribuição dos seus dados por classe em um gráfico de barras (quantas amostras por classe).
+
+O que fazer?
+
+- Disponibilize o código utilizado para resolver os itens acima no seu repositório. 
+
+- Responda as perguntas na documentação do repositório, em seção específica para Exploração dos Dados.
+
+- Coloque também a figura gerada na documentação do seu repositório. 
+
+__ENTREGAR__: 1 Documento em PDF que atenda aos itens 1 a 4, mostrando as colunas (cabeçalho) do vetor de características, a figura de distribuição das classes e o código como apêndice (formato relatório técnico). 
+
+---
 # Dataset - URL dataset (ISCX-URL2016)
 
 - O dataset se encontra no diretório raiz do repositório: `CI1030-Ciencia-de-Dados/dataset/ISCXURL2016.zip`

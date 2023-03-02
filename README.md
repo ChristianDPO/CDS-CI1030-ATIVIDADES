@@ -1,137 +1,28 @@
-# CI1030-Ciencia-de-Dados
+# Atividades da Disciplina de CI1030
+
+__Disciplina:__ Ciência de Dados para Segurança (CI1030)
+
+__Curso:__ Bacharelado em Ciência da Computação - Universidade Federal do Paraná (UFPR)
+
+__Professor:__ André Ricardo Abed Gregio
+
+__Participantes:__
+
+* [Christian Debovi Paim Oliveira](https://github.com/ChristianDPO)
+
+# Descrição
 
 - Este repositório tem como função abrigar as tarefas proposta pela matéria de Ciência de Dados para Segurança (CI1030) da Universiade Federal do Paraná (2021/2o Semestre (ERE5) - feito em 2022)
-- Este `README.md` contém apenas os enunciados das tarefas. As tarefas estão divididas em diferentes diretórios, cada diretório contem um `README.md` descrevendo a tarefa
+- As tarefas consistem em atividades como:
+    - Tratamento de um dataset de URLs utilizando Pandas (Python e Python Notebooks)
+    - Treinamento de modelos de aprendizado de máquina utilizando features extraidas das URLs
+    - Tentativa de caracterização de URLs como Maliciosas ou Não Maliciosas utilizando as features extraidas
+    - Vizualização dos resultados e da distribuição dos dados utilizando diversas ferramentas (WEKA, gráfico scatterplot) 
 
-# Tarefa 01
+- Cada Pasta desse respositório tem um `README.md` contendo informações extras sobre as atividades, sendo a Tarefa 2 a própria criação desse
+repositório
 
-- Faça uma captura de rede em sua máquina usando o ScaPy (aproximadamente 1 minuto, navegando na Web) e salve o arquivo como "trace.pcap"
-- Crie um script que leia o arquivo capturado e:
-- Conte quantos pacotes foram capturados no Total;
-- Conte quantos pacotes possuem protocolo de camada de Rede "IP"
-- Conte quantos pacotes possuem protocolo de camada de Transporte "TCP"
-- Conte quantos pacotes possuem protocolo de camada de Transporte "UDP"
-- Separe as sessões "TCP" e "UDP" em dicionários de listas (chave == sessão, valor recebe lista de payloads daquela sessão em formato legível)
-- Imprima a quantidade de sessões TCP e UDP, bem como a quantidade de pacotes não-associados ao protocolo de rede IP.
+# Dependências
 
-__EXEMPLO DE SAÍDA:__
-
-O arquivo "trace.pcap" possui:
-
-1456 pacotes no total
-
-1301 pacotes IP
-
-965 pacotes TCP
-
-336 pacotes UDP
-
-12 sessões TCP
-
-3 sessões UDP
-
-155 pacotes não-IP
-
-
-# Tarefa 02
-- Criar um repositório no Github/Gitlab para a disciplina.
-- Organizá-lo de acordo com as tarefas (em código e documentos).
-- Iniciar a escrita do "manual" (README).
-- Subir o código da Tarefa 1 no seu repositório.
-
-# Tarefa 03
-
-Exploração do seu dataset
-
-- Os objetivos da tarefa são:
-
-1. Obter o dataset selecionado conforme aprovado pelo professor;
-
-2. Descrevê-lo em seu repositório
-- quantidade de amostras;
-- classes das amostras - isto é, tipos de rótulos que categorizam as amostras e o que eles significam;
-- dicionário de atributos - isto é, quantos, quais são e descrição dos atributos;
-
-3. Apresentar o dataset: estude como fazer um scatterplot e aplique-o para seus dados. O scatterplot é um gráfico que rebate cada atributo pelo outro, gerando uma matriz N por N, onde N é o número de atributos.
-
-4. Investigar o scatterplot para discutir dataset: suas amostras são distinguíveis? Existem características/atributos que parecem não distinguir entre as amostras? Quais? Há características/atributos que parecem ser adequados para distinguir entre as classes/rótulos das amostras? Quais?
-
-Vetor de características e Distribuição do conjunto de dados
-
-- Após a exploração e seleção inicial de quais atributos serão usados como características, faça:
-
-1. Crie um vetor de características com seus dados;
-
-2. Utilize os rótulos das amostras como classes (é um problema binário ou multiclasse?);
-
-3. Inclua os rótulos como última posição do vetor de características, um por amostra, indexando como "classe";
-
-4. Apresente graficamente a distribuição dos seus dados por classe em um gráfico de barras (quantas amostras por classe).
-
-O que fazer?
-
-- Disponibilize o código utilizado para resolver os itens acima no seu repositório. 
-
-- Responda as perguntas na documentação do repositório, em seção específica para Exploração dos Dados.
-
-- Coloque também a figura gerada na documentação do seu repositório. 
-
-__ENTREGAR__: 1 Documento em PDF que atenda aos itens 1 a 4, mostrando as colunas (cabeçalho) do vetor de características, a figura de distribuição das classes e o código como apêndice (formato relatório técnico). 
-
-# Tarefa 04
-
-Cada aluno deverá apresentar o estado atual do seu projeto, mostrando e discutindo:
-
-- O dataset como um todo
-    - atributos, características, classes, amostras
-    - distribuição de classes
-- Processamento dos dados
-    - Como foi feita a extração de características
-    - Foi feito seleção?
-- Exploração e visualização de dados
-    - Mostrar o diagrama de dispersão (scatterplot)
-    - Mostrar visualmente o agrupamento de seu dataset com algum algoritmo de clustering
-        - Sugestão: K-Means (mas pode usar outro, como DBScan)
-        - Usar como número de cluster o número de classes do seu problema (se for binário, K=2)
-
-__ENTREGAR__: Apresentar slides, 10 minutos cada aluno/apresentação (vale nota parcial).
-
-Outras tarefas para a verificação:
-    
-- Verificar o gráfico do Kmeans e o gráfico das amostras. Qual a proporção de amostras em cada cluster? Os clusters separam bem as amostras?
-- Fazer a classificação do dataset com a proporção 80/20 de treino/teste com alguns classificadores de sua escolha. Houveram bons resultados? Qual dos escolhidos tiveram bons resultados e por quê?
-
-
-# Tarefa Final
-
-Tarefa Final
-INSTRUÇÕES:
-
-Do dataset total escolhido, REMOVA 20% das amostras (com balanceamento entre as classes) e as GUARDE em um outro diretório para uso futuro.
-
-As amostras remanescentes (80%) serão referidas daqui por diante como "DATASET".
-
-1. Utilizar o DATASET para treinar modelos baseados em KNN (1, 3 e 5 vizinhos), RandomForest (50 e 100 árvores) e MLP ou SVM (1000 e 5000 épocas, ou erro menor que 0.01);
-
-- Escolha uma meta para o ajuste de limiar, justifique-a conforme a solução que você quer criar e rode o GridSearch de forma a gerar os modelos ótimos para sua meta;
-- Defina uma classe positiva, mesmo em um problema multiclasse e binarize seu problema;
-- Se seu dataset for muito desbalanceado, faça reamostragem (resample) considerando 1 para 5, isto é, cinco amostras da classe maior para cada amostra da classe menor. Faça 3 (três) conjuntos de dados reamostrados, para melhorar a chance de variedade na classe mais populada. Você também pode tentar criar um classificador de uma classe (ver: one-class classifiers).
-2. Com base nos melhores parâmetros gerados para cada algoritmo:
-
-- Treine modelos usando separação do DATASET em 50/50 e 80/20;
-- Grave os modelos gerados para uso posterior;
-- Registre o tempo de TREINAMENTO dos modelos (lembre-se de definir um estado que permita a replicação do experimento e de salvar seu modelo para uso posterior em uma solução a ser demonstrada);
-- Gere as curvas ROC ou P/R e matrizes de confusão para o relatório usando k-folding com k = 5 (produzir um gráfico com 5 curvas por algoritmo);
-- Compare os resultados dos testes iniciais com os resultados obtidos pelo artigo original do qual seu dataset é proveniente.
-3. Na definição do experimento, lembre-se de colocar a especificação da máquina utilizada (processador, memória, sistema operacional) e dos parâmetros usados em cada algoritmo
-
-4. Testes:
-
-- Se seu problema era inicialmente multiclasses, use um algoritmo de agrupamento no resultado da classe positiva com N clusters (N == quantidade de classes que compõem a classe positiva) e gere a matriz de confusão do agrupamento, a fim de verificarmos se é possível "especializar" a detecção realizada...
-- Busque por amostras do mundo real para demonstração posterior;
-- Ajeite os 20% de amostras removidas de forma que elas não tenham mais rótulo, mas que você possa mapea-las individualmente para o rótulo correto após usá-las como entrada para sua solução;
-5. Faça uma apresentação da sua solução contendo experimentos, gráficos, tabelas comparativas e uma demonstração prática utilizando os modelos gerados com os 20% de amostras removidas e com as amostras que você encontrou do mundo real.
-
-6. Atualize seu GitHub com os códigos, vetores e documentação nova
-
-CADA ALUNO TERÁ UM SLOT DE 30 MINUTOS NO DIA DA APRESENTAÇÃO (a ser definido).
+- Para rodar os scripts, é necessário ter o Python instalado, assim como as bibliotecas necessárias, presente no arquivo `requirements.txt` de cada diretório
+- Para rodar os Python Notebooks, é necessário um ambiente capaz de rodalos, recomendo a interface do [Visual Studio Code](https://code.visualstudio.com)
